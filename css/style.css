@@ -5,10 +5,16 @@
 }
 
 body {
-  background-color: #fff;
+  background-color: #ffffff;
+
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
 }
+
+address {
+  font-style: normal;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -41,6 +47,10 @@ body {
   /* identical to box height */
   letter-spacing: 0.03em;
   color: var(--accent-color);
+
+  margin-left: 215px;
+  margin-top: 24px;
+  margin-bottom: 25px;
 }
 
 .menu .link.current {
@@ -64,13 +74,22 @@ body {
   color: var(--accent-color);
 }
 
-.contact-phone-number,
+.contact-phone-number {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
 .mail {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  margin-left: 330px;
+  margin-right: 50px;
 }
 
 .mail:hover,
@@ -84,11 +103,58 @@ body {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
+
+  color: #ffffff;
+
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 892px;
+  top: 432px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/* .order-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
   letter-spacing: 0.06em;
   color: #ffffff;
 
+  position: absolute;
+  min-width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+
   background-color: var(--accent-color);
+  border-radius: 25px;
+  border: 1px solid;
+} */
+
+/* 
+  .order-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+
+
+
+  background-color: var(--accent-color);
+  border-radius: 25px;
+  border: 1px solid;
 }
+} */
 
 .primary-btn {
   font-weight: 500;
@@ -201,7 +267,9 @@ body {
   color: #2196f3;
 }
 
-.contacts {
+.contacts,
+.adress-list,
+.logo-footer {
   background-color: #2f303a;
 }
 
@@ -232,6 +300,12 @@ body {
 }
 
 /* Модуль 3 */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 img {
   display: block;
@@ -275,4 +349,65 @@ button {
   width: 1600px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #ffffff;
+}
+
+.page-header-container {
+  display: flex;
+  align-items: center;
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 93px;
+}
+
+.menu-item:not(:last-child) {
+  margin: 50px;
+}
+
+.main-title {
+  display: flex;
+  align-items: center;
+  padding-top: 200px;
+  padding-bottom: 280px;
+  padding-left: 452px;
+  padding-right: 452px;
+}
+
+/* test 
+ background: #2f303a;
+*/
+
+.order {
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-title-test {
+  display: flex;
+  align-items: center;
+
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
