@@ -376,6 +376,11 @@ button {
   margin-bottom: 10px;
 }
 
+ .suptitle-doing {
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
 .features-ul {
   display: flex;
   justify-content: space-between;
@@ -386,7 +391,17 @@ button {
 .worktable {
   display: flex;
   justify-content: space-between;
+  width: 1600px;
+  flex-wrap: wrap;
 }
+
+.worktable-li:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+
+/* .worktable:not(:nth-child(3n)) {
+  margin-right: 30px;
+} */
 
 .team-list {
   display: flex;
@@ -414,4 +429,26 @@ button {
 
 .container-top {
   background: #2f303a;
+}
+
+.worktable {
+  margin-right: 30px;
+  margin-top: 92px;
+}
+
+.team-title {
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+
+.team-list:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+
+/* .team-list-title {
+  margin-top: 30px;
+} */
+
+.suptitle-team-list-title {
+  margin-top: 30px;
 }
