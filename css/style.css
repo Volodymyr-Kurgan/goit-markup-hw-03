@@ -451,4 +451,61 @@ button {
 
 .suptitle-team-list-title {
   margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/* Портфоліо */
+
+/* .page-header {
+  display: flex;
+  align-items: center;
+} */
+
+.container-filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-bottom: 56px;
+}
+
+.container-filter-item:not(:nth-child(5n)) {
+  margin-right: 8px;
+}
+
+/* 
+ width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #ffffff; */
+
+.container-filter {
+}
+
+.container-filter-item {
+  margin-right: 8px;
+}
+
+.portfolio-list {
+  display: flex;
+
+  justify-content: space-between;
+  width: 1600px;
+  flex-wrap: wrap;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+/* .portfolio-list-item {
+  margin-right: 30px;
+} */
+
+.sup-portfolio-list-title {
+  padding-left: 24px;
+}
+
+.portfolio-list-title-p {
+  padding-left: 24px;
 }
