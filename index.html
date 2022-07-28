@@ -25,29 +25,32 @@
       <div class="container page-header-container">
         <nav class="page-nav">
           <a href="./index.html" class="logo">Web <span>Studio</span> </a>
+
+          <ul class="menu list">
+            <li class="menu-item">
+              <a href="./index.html" class="link current">Студия</a>
+            </li>
+            <li class="menu-item link">
+              <a class="menu-link link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="">Контакты</a>
+            </li>
+          </ul>
         </nav>
 
-        <ul class="menu list">
-          <li class="menu-item">
-            <a href="./index.html" class="link current">Студия</a>
+        <ul class="mail-phone list">
+          <li>
+            <a class="mail link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li class="menu-item link">
-            <a class="menu-link link" href="./portfolio.html">Портфолио</a>
-          </li>
-          <li class="menu-item">
-            <a class="menu-link link" href="">Контакты</a>
+          <li>
+            <a class="contact-phone-number link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
-
-        <div class="list">
-          <a class="mail link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-
-          <a class="contact-phone-number link" href="tel:+380961111111"
-            >+38 096 111 11 11</a
-          >
-        </div>
       </div>
     </header>
     <main>
@@ -55,14 +58,11 @@
 
       <!-- Test start -->
       <section class="hero">
-        <ul class="container-top list">
-          <li>
-            <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
-          </li>
-          <li class="container-top-button">
-            <button class="order-btn" type="button">Заказать услугу</button>
-          </li>
-        </ul>
+        <div class="container-top list">
+          <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
+
+          <button class="order-btn" type="button">Заказать услугу</button>
+        </div>
       </section>
 
       <!-- Backup -->
@@ -80,118 +80,122 @@
       </section> -->
 
       <section class="features container section">
-        <div class="container"></div>
+        <div class="container">
+          <h2 class="visually-hidden">Преимущества</h2>
+          <ul class="features-ul list">
+            <li>
+              <h3 class="features-title">Внимание к деталям</h3>
+              <p class="section-description">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
 
-        <h2 class="visually-hidden">Преимущества</h2>
-        <ul class="features-ul list">
-          <li>
-            <h3 class="features-title">Внимание к деталям</h3>
-            <p class="section-description">
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
-
-          <li>
-            <h3 class="features-title">Пунктуальность</h3>
-            <p class="section-description">
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
-          </li>
-          <li>
-            <h3 class="features-title">Планирование</h3>
-            <p class="section-description">
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
-          <li>
-            <h3 class="features-title">Современные технологии</h3>
-            <p class="section-description">
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-          </li>
-        </ul>
+            <li>
+              <h3 class="features-title">Пунктуальность</h3>
+              <p class="section-description">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li>
+              <h3 class="features-title">Планирование</h3>
+              <p class="section-description">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li>
+              <h3 class="features-title">Современные технологии</h3>
+              <p class="section-description">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="about container">
-        <h2 class="about-title suptitle-doing">Чем мы занимаемся</h2>
+        <div class="container">
+          <h2 class="about-title suptitle-doing">Чем мы занимаемся</h2>
 
-        <ul class="worktable list">
-          <li class="worktable-li">
-            <img
-              src="./images/about/box1.png"
-              alt="Программист за рабочим столом, печатает на клавиатуре. Слева от
+          <ul class="worktable list">
+            <li class="worktable-li">
+              <img
+                src="./images/about/box1.png"
+                alt="Программист за рабочим столом, печатает на клавиатуре. Слева от
                 него блок-схема. Перед ним планшет и монитор. На мониторе и на
                 планшете видны фрагменты кода."
-              width="370"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/about/box2.png"
-              alt="Разработчик держит в левой руке
+                width="370"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/about/box2.png"
+                alt="Разработчик держит в левой руке
                 телефон, а пальцами правой руки водит по тачпаду ноутбука. На
                 экране ноутбука изображены 3 картинки с телефонами."
-              width="370"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/about/box3.png"
-              alt="Дизайнер
+                width="370"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/about/box3.png"
+                alt="Дизайнер
                 держит планшет с цветовой схемой. На заднем фоне фрагменты
                 рабочего стола: монитор, клавиатура и мышка."
-              width="370"
-            />
-          </li>
-        </ul>
+                width="370"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="team container">
-        <h2 class="team-title">Наша команда</h2>
+        <div class="container">
+          <h2 class="team-title">Наша команда</h2>
 
-        <ul class="team-list list">
-          <li class="team-list-item">
-            <img
-              src="./images/team/img1.jpg"
-              alt="Парень в очках, в тёмной рубашке, улыбается."
-              width="270"
-            />
+          <ul class="team-list list">
+            <li class="team-list-item">
+              <img
+                src="./images/team/img1.jpg"
+                alt="Парень в очках, в тёмной рубашке, улыбается."
+                width="270"
+              />
 
-            <h3 class="team-list-title suptitle-team-list-title">
-              Игорь Демьяненко
-            </h3>
-            <p lang="en">Product Designer</p>
-          </li>
-          <li>
-            <img
-              src="./images/team/img2.jpg"
-              alt="Блондинка в очках, в пиджаке, улыбается."
-              width="270"
-            />
-            <h3 class="suptitle-team-list-title">Ольга Репина</h3>
-            <p lang="en">Frontend Developer</p>
-          </li>
-          <li>
-            <img
-              src="./images/team/img3.jpg"
-              alt="Парень, в светлой рубашке, улыбается, смотрит в сторону."
-              width="270"
-            />
-            <h3 class="suptitle-team-list-title">Николай Тарасов</h3>
-            <p lang="en">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images/team/img4.jpg"
-              alt="Парень в очках, в тёмной футболке, смотрит с хитрой ухмылкой."
-              width="270"
-            />
-            <h3 class="suptitle-team-list-title">Михаил Ермаков</h3>
-            <p lang="en">UI Designer</p>
-          </li>
-        </ul>
+              <h3 class="team-list-title suptitle-team-list-title">
+                Игорь Демьяненко
+              </h3>
+              <p lang="en">Product Designer</p>
+            </li>
+            <li>
+              <img
+                src="./images/team/img2.jpg"
+                alt="Блондинка в очках, в пиджаке, улыбается."
+                width="270"
+              />
+              <h3 class="suptitle-team-list-title">Ольга Репина</h3>
+              <p lang="en">Frontend Developer</p>
+            </li>
+            <li>
+              <img
+                src="./images/team/img3.jpg"
+                alt="Парень, в светлой рубашке, улыбается, смотрит в сторону."
+                width="270"
+              />
+              <h3 class="suptitle-team-list-title">Николай Тарасов</h3>
+              <p lang="en">Marketing</p>
+            </li>
+            <li>
+              <img
+                src="./images/team/img4.jpg"
+                alt="Парень в очках, в тёмной футболке, смотрит с хитрой ухмылкой."
+                width="270"
+              />
+              <h3 class="suptitle-team-list-title">Михаил Ермаков</h3>
+              <p lang="en">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="contacts container">
