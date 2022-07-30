@@ -149,7 +149,7 @@ address {
 }
 
 .main-title {
-  font-weight: 696px;
+  width: 696px;
 
   margin-bottom: 30px;
   margin-left: auto;
@@ -200,7 +200,7 @@ address {
 }
 
 .about {
-  padding-bottom: 10px;
+  padding-bottom: 94px;
 }
 
 /* ---- TEAM ---- */
@@ -352,6 +352,10 @@ button {
   align-items: center;
 }
 
+.mail-phone-li:not(:last-child) {
+  margin-right: 50px;
+}
+
 .menu-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -378,8 +382,8 @@ button {
 }
 
 .section {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
  .suptitle {
@@ -394,6 +398,7 @@ button {
 
 .features-ul {
   display: flex;
+  gap: 30px;
 }
 
 .worktable {
@@ -444,17 +449,16 @@ button {
 } */
 
 .worktable {
-  margin-right: 30px;
-  margin-top: 92px;
+  margin-top: 50px;
 }
 
 .team-title {
   margin-bottom: 50px;
 }
-
+/* 
 .team-list-item:not(:nth-child(3n)) {
   margin-right: 30px;
-}
+} */
 
 /* .team-list-title {
   margin-top: 30px;
@@ -476,13 +480,12 @@ button {
 
 .container-filter {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin-top: 100px;
-  margin-bottom: 56px;
+  justify-content: center;
+
+  margin-bottom: 34px;
 }
 
-.container-filter-item:not(:nth-child(5n)) {
+.container-filter-item:not(:last-child) {
   margin-right: 8px;
 }
 
@@ -493,9 +496,6 @@ button {
   padding-left: 15px;
   padding-right: 15px;
   background-color: #ffffff; */
-
-.container-filter {
-}
 
 .container-filter-item {
   margin-right: 8px;
@@ -528,15 +528,38 @@ button {
   margin-left: auto;
 }
 
-.mail-phone-li {
+/* .mail-phone-li {
   margin-right: 50px;
-}
+} */
 
 .features-li {
   width: 270px;
 }
 
 .team-list-div {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.adress-list-li:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.filter {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.portfolio-list > .portfolio-list-item {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
   margin-top: 30px;
-  margin-bottom: 30px;
 }
